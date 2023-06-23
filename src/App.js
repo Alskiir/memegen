@@ -1,8 +1,13 @@
 import './App.css';
 
+import { Header, Meme } from './components/App';
+
 function App() {
   return (
-    <div> </div>
+    <div className='container'> 
+      <Header />
+      <Meme />
+    </div>
   );
 }
 
